@@ -3,8 +3,8 @@
 # ask for user's input
 statement = input("Enter a statement: ")
 
-# splits the statement into words
-word_count = statement.split()
+# splits the statement into words and  counts the number of words in the list
+word_count = len(statement.split())
 
-# counts the number of words in the list
 # print
+print (word_count)
