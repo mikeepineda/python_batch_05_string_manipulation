@@ -3,9 +3,8 @@
 # ask for user's input
 fullname = input("Enter your fullname in incorrect casing: ")
 
-# convert all input into lowercase
-snake_case = fullname.lower()
+# convert all input into lowercase and change space to underscore
+snake_case = fullname.lower().replace(" ", "_")
 
-# change space to underscore
 # print 
 print(snake_case)
