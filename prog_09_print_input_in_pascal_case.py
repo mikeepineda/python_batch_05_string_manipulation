@@ -3,8 +3,9 @@
 # ask for user's input 
 fullname = input("Enter your name in incorrect casing: ")
 
-# capitalize letter of every first word
-pascal_case = fullname.title()
+# capitalize first letter of every word and remove spacing 
+pascal_case = fullname.title().replace(" ", "")
 
-# remove spacing 
 # print
+print(pascal_case)
+
